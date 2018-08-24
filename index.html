@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>tarea</title>
+  </head>
+  <body>
+    <form action="mailto:String@string.com" method="get">
+      <fieldset>
+         <legend>Personal</legend>
+         <label for="name" id="labelname" name="labelname">Name: </label>
+         <input type="text" name="name" id="name" placeholder="Nombre..."><br>
+         <label for="date" id="labeldate" name="labeldate">Date of Birth: </label>
+         <input type="date" name="date" id="date" ><br>
+         <label for="animal" id="labelanimal" name="labelanimal">Favorite Animal: </label>
+         <input type="text" name="FavoriteAnimal" id="animal" placeholder="animal favorito...">
+       </fieldset>
+       <fieldset>
+         <legend>Account</legend>
+         <label for="email" id="labelemail" name="labelemail">E-mail: </label>
+         <input type="text" name="email" id="email" placeholder="E-mail..."><br>
+         <label for="pass" id="labelpass" name="labelpass" >Password: </label>
+         <input type="password" name="pass" id="pass" pattern=".{8,}" title="mas de 8 caracteres" required ><br>
+         <label for="verpass" id="labelverifypass" name="labelverifypass" >Verify password: </label>
+         <input type="password" name="verifypass" id="verpass" required>
+       </fieldset>
+       <fieldset>
+         <legend>Contact</legend>
+         <label for="address" id="labeladdress" name="labeladdress">address: </label>
+         <input type="text" name="address" id="address" placeholder="direccion..."><br>
+         <label for="city" id="labelcity" name="labelcity">City: </label>
+         <input type="text" name="city" id="city" placeholder="ciudad..."><br>
+         <label for="country" id="labelcountry" name="labelcountry">Country: </label>
+         <input type="text" name="country" id="country" placeholder="pais..."><br>
+         <label for="pnumber" id="labelphonenumber" name="labelphonenumber">Phone number: </label>
+         <input type="text" name="pnumber" id="pnumber" placeholder="numero telefonico...">
+       </fieldset>
+       <fieldset>
+         <legend>Submit</legend>
+         <label for="submit" id="send" name="send">Enviar todo</label>
+         <input type="submit" value="Enviar todo" name="submit" id="submit">
+
+       </fieldset>
+
+  </form>
+  </body>
+</html>
